@@ -1,4 +1,4 @@
-h2. Подготовка
+## Подготовка
 
 1. Установить зависимости:
    ```bash
@@ -11,13 +11,14 @@ h2. Подготовка
    Значения для YOUTUBE_API_KEY можно взять, пройдя по [этой инструкции](https://www.geeksforgeeks.org/youtube-data-api-set-1/).
    <img width="1067" alt="image" src="https://github.com/vasartam/yt-comments-analysis/assets/15614336/0d17eadb-7375-492a-a38f-b2eb9890fe5f">
 
-h2. Запуск скрипта
+## Запуск скрипта
 
+Версия Python 3.9.
 ```bash
 python <имя_файла.py>
 ```
 
-h2. Описание скриптов
+## Описание скриптов
 
 `load_comments.py` загружает комментарии с данного YouTube-видео в локальный файл `comments.json`.
 
